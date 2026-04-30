@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-data = pd.read_csv("restaurants.csv")
+data = pd.read_csv("restaurants.csv", encoding="latin1")
 
 @app.route("/")
 def home():
