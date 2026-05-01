@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spotly</title>
+
+<style>
+
+body{
+font-family: Arial;
+text-align: center;
+background:#f4f4f4;
+padding:40px;
+}
+
+input{
+padding:10px;
+font-size:16px;
+}
+
+button{
+padding:10px 20px;
+font-size:16px;
+background:black;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+#results{
+margin-top:30px;
+}
+
+.restaurant{
+background:white;
+padding:15px;
+margin:10px auto;
+width:300px;
+border-radius:8px;
+box-shadow:0px 2px 5px rgba(0,0,0,0.1);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Spotly 🍽️</h1>
+<p>Find restaurants near you</p>
+
+<input type="text" id="location" placeholder="Enter city">
+
+<button onclick="searchRestaurant()">Search</button>
+
+<div id="results"></div>
+
+<script>
+
+async function searchRestaurant(){
+
+let location = document.getElementById("location").value;
+
+let response = await fetch("/search?location=" + location);
+
+let data = await response.json();
+
+let output = "";
+
+if(data.length == 0){
+output = "<p>No restaurants found</p>";
+}
+
+data.forEach(r => {
+
+output += `
+<div class="restaurant">
+<h3>${r.name}</h3>
+<p>Cuisine: ${r.cuisine}</p>
+<p>Location: ${r.location}</p>
+</div>
+`;
+
+});
+
+document.getElementById("results").innerHTML = output;
+
+}
+
+</script>
+
+</body>
+</html>
