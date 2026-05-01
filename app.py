@@ -3,11 +3,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-try:
-    data = pd.read_csv("restaurants.csv", encoding="latin1")
-except Exception as e:
-    print("CSV error:", e)
-    data = pd.DataFrame()
+data = pd.read_csv("Restaurants.csv", encoding="latin1")
 
 @app.route("/")
 def home():
@@ -15,8 +11,14 @@ def home():
 
 @app.route("/recommend")
 def recommend():
-    cuisine = request.args.get("cuisine", "")
+    cuisine = request.args.get("cuisine")
 
-    results = data[data["Cuisine"].str.contains(cuisine, case=False, na=False)]
+    if not cuisine:
+        return jsonify({"error": "Please provide a cuisine"}), 400
+
+    results = data[data["Cuisines"].str.contains(cuisine, case=False, na=False)]
 
     return jsonify(results.head(5).to_dict(orient="records"))
+
+if __name__ == "__main__":
+    app.run()
