@@ -1,84 +1,146 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Spotly</title>
 
-    <style>
-        body{
-            font-family: Arial;
-            text-align:center;
-            background:#f4f4f4;
-            padding:40px;
-        }
+<title>Spotly</title>
 
-        input{
-            padding:10px;
-            font-size:16px;
-        }
+<style>
 
-        button{
-            padding:10px 20px;
-            font-size:16px;
-            background:black;
-            color:white;
-            border:none;
-            cursor:pointer;
-        }
+body{
+font-family: Arial;
+background:#f4f4f4;
+text-align:center;
+}
 
-        #results{
-            margin-top:30px;
-        }
+h1{
+margin-top:40px;
+}
 
-        .card{
-            background:white;
-            padding:15px;
-            margin:10px auto;
-            width:300px;
-            border-radius:8px;
-            box-shadow:0 0 5px rgba(0,0,0,0.2);
-        }
-    </style>
+.search-box{
+margin:30px;
+}
+
+input,select{
+padding:10px;
+margin:5px;
+font-size:16px;
+}
+
+button{
+padding:10px 20px;
+background:black;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+margin-top:30px;
+}
+
+.card{
+background:white;
+width:260px;
+margin:15px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+text-align:left;
+}
+
+.card h3{
+margin:0;
+}
+
+.stars{
+color:gold;
+}
+
+</style>
 
 </head>
 
 <body>
 
-<h1>Spotly 🍽️</h1>
+<h1>Spotly 🍽</h1>
 <p>Find restaurants near you</p>
 
-<input id="cuisine" placeholder="Enter cuisine (Indian, Italian etc)">
-<button onclick="searchRestaurants()">Search</button>
+<div class="search-box">
 
-<div id="results"></div>
+<input id="cuisine" placeholder="Cuisine (Italian, Indian)">
+
+<input id="location" placeholder="Location">
+
+<select id="price">
+<option value="">Any Price</option>
+<option value="500">Under ₹500</option>
+<option value="1000">₹1000</option>
+<option value="2000">₹2000+</option>
+<option value="5000">₹5000+</option>
+</select>
+
+<button onclick="search()">Search</button>
+
+</div>
+
+<div class="container" id="results"></div>
 
 <script>
 
-async function searchRestaurants(){
+function stars(rating){
 
-    const cuisine = document.getElementById("cuisine").value;
+let full = Math.round(rating)
+let star = ""
 
-    const response = await fetch(`/recommend?cuisine=${cuisine}`);
+for(let i=0;i<full;i++){
+star += "⭐"
+}
 
-    const data = await response.json();
+return star
+}
 
-    const resultsDiv = document.getElementById("results");
+function search(){
 
-    resultsDiv.innerHTML = "";
+let cuisine = document.getElementById("cuisine").value
+let location = document.getElementById("location").value
+let price = document.getElementById("price").value
 
-    data.forEach(r => {
+fetch(`/recommend?cuisine=${cuisine}&location=${location}&price=${price}`)
+.then(res=>res.json())
+.then(data=>{
 
-      resultsDiv.innerHTML += `
+let html=""
+
+data.forEach(r=>{
+
+html+=`
+
 <div class="card">
-    <h3>${r.name}</h3>
-    <p>Cuisine: ${r.cuisine}</p>
-    <p>Location: ${r.location}</p>
-    <p>Rating: ${r.rating}</p>
-    <p>Price: ${r.price}</p>
-    <p>Tags: ${r.tags}</p>
-</div>
-`;
 
-    });
+<h3>${r.name}</h3>
+
+<p><b>Cuisine:</b> ${r.cuisine}</p>
+
+<p><b>Location:</b> ${r.location}</p>
+
+<p class="stars">${stars(r.rating)} (${r.rating})</p>
+
+<p><b>Price:</b> ₹${r.price}</p>
+
+<p>${r.tags}</p>
+
+</div>
+
+`
+
+})
+
+document.getElementById("results").innerHTML=html
+
+})
 
 }
 
