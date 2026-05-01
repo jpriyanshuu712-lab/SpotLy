@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spotly</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            text-align:center;
+            background:#f4f4f4;
+            padding:40px;
+        }
+
+        input{
+            padding:10px;
+            font-size:16px;
+        }
+
+        button{
+            padding:10px 20px;
+            font-size:16px;
+            background:black;
+            color:white;
+            border:none;
+            cursor:pointer;
+        }
+
+        #results{
+            margin-top:30px;
+        }
+
+        .card{
+            background:white;
+            padding:15px;
+            margin:10px auto;
+            width:300px;
+            border-radius:8px;
+            box-shadow:0 0 5px rgba(0,0,0,0.2);
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h1>Spotly 🍽️</h1>
+<p>Find restaurants near you</p>
+
+<input id="cuisine" placeholder="Enter cuisine (Indian, Italian etc)">
+<button onclick="searchRestaurants()">Search</button>
+
+<div id="results"></div>
+
+<script>
+
+async function searchRestaurants(){
+
+    const cuisine = document.getElementById("cuisine").value;
+
+    const response = await fetch(`/recommend?cuisine=${cuisine}`);
+
+    const data = await response.json();
+
+    const resultsDiv = document.getElementById("results");
+
+    resultsDiv.innerHTML = "";
+
+    data.forEach(r => {
+
+        resultsDiv.innerHTML += `
+        <div class="card">
+            <h3>${r.name}</h3>
+            <p>Cuisine: ${r.cuisine}</p>
+            <p>Location: ${r.location}</p>
+        </div>
+        `;
+
+    });
+
+}
+
+</script>
+
+</body>
+</html>
