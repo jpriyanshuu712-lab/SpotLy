@@ -13,9 +13,12 @@ def home():
 @app.route("/recommend")
 def recommend():
 
-    cuisine = request.args.get("cuisine", "").lower()
+    query = request.args.get("cuisine").lower()
 
-    filtered = df[df["Cuisine Type"].str.lower().str.contains(cuisine)]
+    filtered = df[
+    df["cuisine"].str.contains(query, case=False) |
+    df["location"].str.contains(query, case=False)
+]
 
     results = []
 
