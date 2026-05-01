@@ -3,10 +3,15 @@ import pandas as pd
 
 app = Flask(__name__)
 
-# Load dataset
-data = pd.read_csv("restaurants.csv", encoding="latin1")
+# Load dataset safely
+try:
+    data = pd.read_csv("restaurants.csv", encoding="latin1")
+    print("CSV loaded successfully")
+except Exception as e:
+    print("CSV loading error:", e)
+    data = pd.DataFrame()
 
-# Homepage
+# Home route
 @app.route("/")
 def home():
     return send_file("index.html")
@@ -14,14 +19,18 @@ def home():
 # Recommendation API
 @app.route("/recommend")
 def recommend():
-    cuisine = request.args.get("cuisine")
+    try:
+        cuisine = request.args.get("cuisine")
 
-    if not cuisine:
-        return jsonify({"error": "Please provide a cuisine"}), 400
+        if not cuisine:
+            return jsonify({"error": "Cuisine not provided"}), 400
 
-    results = data[data["cuisine"].str.contains(cuisine, case=False, na=False)]
+        results = data[data["cuisine"].str.contains(cuisine, case=False, na=False)]
 
-    return jsonify(results.to_dict(orient="records"))
+        return jsonify(results.to_dict(orient="records"))
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 if __name__ == "__main__":
