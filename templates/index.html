@@ -67,13 +67,16 @@ async function searchRestaurants(){
 
     data.forEach(r => {
 
-        resultsDiv.innerHTML += `
-        <div class="card">
-            <h3>${r.name}</h3>
-            <p>Cuisine: ${r.cuisine}</p>
-            <p>Location: ${r.location}</p>
-        </div>
-        `;
+      resultsDiv.innerHTML += `
+<div class="card">
+    <h3>${r.name}</h3>
+    <p>Cuisine: ${r.cuisine}</p>
+    <p>Location: ${r.location}</p>
+    <p>Rating: ${r.rating}</p>
+    <p>Price: ${r.price}</p>
+    <p>Tags: ${r.tags}</p>
+</div>
+`;
 
     });
 
