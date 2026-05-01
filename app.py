@@ -16,7 +16,7 @@ def recommend():
     if not cuisine:
         return jsonify({"error": "Please provide a cuisine"}), 400
 
-    results = data[data["Cuisines"].str.contains(cuisine, case=False, na=False)]
+    results = data[data["Cuisine Type"].str.contains(cuisine, case=False, na=False)]
 
     return jsonify(results.head(5).to_dict(orient="records"))
 
