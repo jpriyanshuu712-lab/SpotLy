@@ -4,7 +4,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load dataset
-data = pd.read_csv("restaurants.csv")
+data = pd.read_csv("restaurants.csv", encoding="latin1")
 
 # Homepage
 @app.route("/")
