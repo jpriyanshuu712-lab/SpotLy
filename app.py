@@ -20,11 +20,14 @@ def recommend():
     results = []
 
     for _, row in filtered.head(10).iterrows():
-        results.append({
-            "name": row["Restaurant Name"],
-            "cuisine": row["Cuisine Type"],
-            "location": row["Area / Location"]
-        })
+       results.append({
+    "name": row["Restaurant Name"],
+    "cuisine": row["Cuisine Type"],
+    "location": row["Area / Location"],
+    "rating": row["Rating"],
+    "price": row["Price Range (for 2)"],
+    "tags": row["Tags"]
+})
 
     return jsonify(results)
 
