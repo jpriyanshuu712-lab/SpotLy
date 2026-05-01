@@ -1,121 +1,48 @@
 Restaurant Name,Area / Location,Cuisine Type,Price Range (for 2),Veg/Non-Veg,Ambience,Rating,Tags
-Indian Accent,Lodhi Road,Modern Indian,"?5,000+",Both,Fine Dining,4.9,"Romantic, Luxury"
-Bukhara,Chanakyapuri,North Indian,"?6,000+",Both,Fine Dining,4.8,"Iconic, Family"
-Dum Pukht,Chanakyapuri,Awadhi,"?6,000+",Both,Fine Dining,4.7,"Royal, Luxury"
-Megu,Chanakyapuri,Japanese,"?5,500+",Both,Fine Dining,4.6,"Contemporary, Chic"
-Le Cirque,Chanakyapuri,French-Italian,"?6,000+",Both,Fine Dining,4.5,"Romantic, Skyline"
-Spice Route,Janpath,South East Asian,"?5,000+",Both,Fine Dining,4.7,"Art-led, Intimate"
-China Kitchen,Bhikaji Cama Place,Chinese,"?4,500+",Both,Fine Dining,4.5,"Open Kitchen, Family"
-Olive Bar & Kitchen,Mehrauli,Mediterranean,"?4,000+",Both,Fine Dining,4.6,"Romantic, Outdoor"
-Dhaba Estd 1986,Connaught Place,North Indian,"?2,500+",Both,Casual-Fine,4.4,"Vibrant, Funky"
-Town Hall,Khan Market,Pan-Asian,"?3,500+",Both,Fine Dining,4.5,"Trendy, Sushi Bar"
-The Grammar Room,Mehrauli,International,"?3,000+",Both,Cafe,4.6,"Aesthetic, Brunch"
-Diggin,Chanakyapuri,Italian/Cafe,"?1,800+",Both,Cafe,4.5,"Fairy-tale, Garden"
-Greenr Cafe,Vasant Vihar,Plant-based,"?1,500+",Vegan/Veg,Cafe,4.4,"Healthy, Pet-friendly"
-Rose Cafe,Saket,Italian/Lebanese,"?1,500+",Both,Cafe,4.3,"Pastel, Romantic"
-Cafe Lota,Pragati Maidan,Modern Indian,"?1,500+",Both,Open-Air,4.7,"Artistic, Cultural"
-AMA Cafe,Majnu Ka Tila,Himalayan/Bakery,"?1,000+",Both,Cafe,4.5,"Cozy, Breakfast"
-Savorworks,Chhatarpur,Coffee/Chocolate,"?1,200+",Both,Cafe,4.4,"Minimalist, Coffee"
-Blue Tokai,Saidulajab,Coffee,?800+,Both,Cafe,4.6,"Industrial, Work"
-Fabcafe,Vasant Kunj,Fusion Indian,"?1,500+",Both,Cafe,4.3,Health-focused
-Leo’s Pizzeria,Vasant Vihar,Artisanal Pizza,"?2,000+",Both,Casual,4.7,"Wood-fired, Pet-friendly"
-Carnatic Cafe,GK II,South Indian,?800+,Veg,Casual,4.7,"Dosa-special, Quick"
-Yum Yum Cha,Saket,Pan-Asian/Sushi,"?2,500+",Both,Casual,4.6,Origami-themed
-Big Chill Cafe,Khan Market,Italian/Continental,"?2,500+",Both,Casual,4.8,"Movie Posters, Iconic"
-Sandoz,Connaught Place,North Indian,"?1,500+",Both,Casual,4.2,"Family, Classics"
-Sushiya,Various,Japanese,"?1,200+",Both,Quick Service,4.1,Value-for-money
-Potbelly Rooftop,Shahpur Jat,Bihari,"?1,800+",Both,Rooftop,4.5,"Offbeat, Vibrant"
-Andhra Bhavan,Ashoka Road,South Indian,?600+,Both,Canteen,4.6,"Thali, Crowded"
-United Coffee House,Connaught Place,Continental/Indian,"?2,500+",Both,Retro Casual,4.4,"Heritage, Vintage"
-Mahabelly,Saket,Kerala,"?1,800+",Both,Casual,4.5,"Seafood, Regional"
-Gulati,Pandara Road,North Indian,"?2,500+",Both,Casual,4.6,"Butter Chicken, Family"
-Sitaram Diwanchand,Paharganj,Chole Bhature,?300+,Veg,Street Food,4.7,"Breakfast, Famous"
-Natraj Dahi Bhalla,Chandni Chowk,Chaat,?150+,Veg,Street Food,4.6,"Heritage, Quick Bite"
-Al Jawahar,Jama Masjid,Mughlai,"?1,200+",Non-Veg,Casual,4.4,"Nihari, Old Delhi"
-Khan Chacha,Khan Market,Rolls/Kebabs,?800+,Both,Casual,4.1,"Quick Bite, Famous"
-Bittoo Tikki Wala,Pitampura,Chaat,?400+,Veg,Quick Service,4.2,"Spicy, Street Food"
-Dolma Aunty Momos,Lajpat Nagar,Tibetan/Momos,?200+,Both,Street Food,4.3,Student-favorite
-Kuremal Mohan Lal,Chawri Bazar,Stuffed Kulfi,?300+,Veg,Dessert Parlor,4.8,"Unique, Summer"
-Karim's,Jama Masjid,Mughlai,"?1,200+",Non-Veg,Casual,4.5,"Iconic, Meat-lovers"
-Kiyan - The Roseate,NH8,Global,"?5,000+",Both,Fine Dining,4.6,"Water-body, Luxury"
-Comorin,Gurgaon,Modern Indian,"?3,000+",Both,Casual-Fine,4.7,"Creative, Bar"
-Sevilla,Aurangzeb Road,Spanish,"?6,000+",Both,Fine Dining,4.5,"Romantic, Canopy"
-Lodi - The Garden,Lodhi Road,European,"?3,000+",Both,Garden Dining,4.3,"Greenery, Outdoor"
-Wenger's,Connaught Place,Bakery,?600+,Both,Takeaway,4.7,"Heritage, Pastries"
-Perch Wine & Coffee,Khan Market,European,"?3,000+",Both,Casual-Fine,4.5,"Wine, Aesthetic"
-Fig & Maple,GK II,Contemporary,"?2,500+",Both,Rooftop,4.6,"Farm-to-fork, Brunch"
-Tres,Lodhi Colony,European,"?4,000+",Both,Fine Dining,4.5,"Gourmet, Intimate"
-Pa Pa Ya,Saket,Modern Asian,"?3,500+",Both,Casual-Fine,4.4,"High-energy, Sushi"
-Lakhori,Chandni Chowk,Mughlai,"?3,000+",Both,Heritage,4.6,"Haveli, Traditional"
-Parikrama,Connaught Place,North Indian,"?3,000+",Both,Revolving,4,"View, Unique"
-Kake Di Hatti,Chandni Chowk,North Indian,?800+,Veg,Casual,4.4,"Huge Naans, Legend"
-Sagar Ratna,Defence Colony,South Indian,"?1,000+",Veg,Casual,4.3,"Family, Consistent"
-Saravana Bhavan,Connaught Place,South Indian,?800+,Veg,Casual,4.5,"Authentic, Busy"
-Jain Chawal Wale,Connaught Place,North Indian,?400+,Veg,Street Food,4.4,"Late Night, Rajma"
-Shyam Sweets,Chawri Bazar,Breakfast,?300+,Veg,Street Food,4.6,Bedmi Poori
-Juggernaut,Kailash Colony,South Indian,"?1,200+",Veg,Casual,4.7,"Aesthetic, Thali"
-Music & Mt. Cafe,GK II,European,"?2,500+",Both,Cafe,4.5,"Rustic, Music"
-Elma's Bakery,Hauz Khas Village,British,"?2,000+",Both,Cafe,4.2,"Tea, Vintage"
-Coast Cafe,Hauz Khas Village,Coastal,"?2,500+",Both,Casual,4.6,"Balcony, Appams"
-Yeti,CP / GK II,Himalayan,"?2,000+",Both,Casual,4.5,"Thukpa, Authentic"
-Café Dori,Chhatarpur,European,"?2,500+",Both,Cafe,4.4,Concept Store
-Plats,Malviya Nagar,Global,"?3,000+",Both,Casual-Fine,4.7,"Chef-led, Innovative"
-Dramz,Mehrauli,European,"?4,500+",Both,Rooftop,4.2,"Whisky Bar, Qutub View"
-Rooh,Mehrauli,Progressive Indian,"?5,000+",Both,Fine Dining,4.6,"Gastronomy, Modern"
-Swan,Mehrauli,Italian/Japanese,"?4,000+",Both,Casual-Fine,4.5,"Terrace, Trendy"
-Koji,Aerocity,Japanese,"?4,500+",Both,Fine Dining,4.4,"Sashimi, Luxury"
-Berco's,Connaught Place,Chinese/Thai,"?1,800+",Both,Casual,4.2,"Family, Reliable"
-Mamagoto,Khan Market,Pan-Asian,"?2,500+",Both,Casual,4.4,"Funky, Manga-themed"
-Diva,GK II,Italian,"?4,000+",Both,Fine Dining,4.5,"Gourmet, Wine"
-Artusi Ristorante,GK II,Italian,"?4,500+",Both,Fine Dining,4.7,Authentic Pasta
-La Piazza,Bhikaji Cama,Italian,"?4,500+",Both,Fine Dining,4.6,Wood-fired Pizza
-Rajinder Da Dhaba,Safdarjung,North Indian,"?1,200+",Both,Dhaba/Street,4.5,Galouti Kebab
-Kwality,Connaught Place,North Indian,"?3,000+",Both,Fine Dining,4.6,"Heritage, Classics"
-Chor Bizarre,Bikaner House,Kashmiri,"?3,500+",Both,Fine Dining,4.4,"Wazwan, Vintage"
-Sidecar,GK II,Global/Bar,"?3,500+",Both,Bar/Casual,4.8,"Cocktails, Best Bar"
-PCO,Vasant Vihar,European/Bar,"?4,000+",Both,Speakeasy,4.5,"Secret, Classic"
-Cirrus 9,The Oberoi,Finger Food,"?5,000+",Both,Rooftop,4.6,"View, Luxury"
-The Piano Man,Safdarjung,Global,"?3,000+",Both,Live Music,4.6,"Jazz, Ambience"
-Social,Hauz Khas Village,Global,"?2,000+",Both,Casual,4.3,"View, Youthful"
-Farzi Cafe,Connaught Place,Modern Indian,"?3,000+",Both,Casual-Fine,4.4,"Molecular, Fun"
-Colocal,Chhatarpur,Cafe/Chocolate,"?2,000+",Both,Cafe,4.5,"Courtyard, Artisanal"
-L'Opera,Khan Market,French Bakery,"?1,200+",Both,Cafe,4.5,"Macarons, Elegant"
-Hard Rock Cafe,Connaught Place,American,"?3,000+",Both,Casual,4.4,"Rock Music, Burgers"
-Jamie's Italian,Ambience Mall,Italian,"?2,500+",Both,Casual,4.1,"Pasta, Fresh"
-Burma Burma,Saket,Burmese,"?2,500+",Veg,Casual-Fine,4.7,"Tea Room, Unique"
-Eest,Gurgaon,Asian,"?5,000+",Both,Fine Dining,4.6,"Teppanyaki, Luxury"
-A-Sirius,Mehrauli,European/Fusion,"?4,000+",Both,Rooftop,4.4,"Qutub View, Chic"
-Nando's,Connaught Place,Afro-Portuguese,"?2,000+",Both,Casual,4.1,Peri-Peri Chicken
-Zaffran,CP / GK II,Mughlai,"?2,500+",Both,Casual,4.3,"Biryani, Family"
-Ping's Café Orient,Lodhi Colony,Asian,"?2,500+",Both,Casual,4.5,"Street-style, Trendy"
-Monkey Bar,Vasant Kunj,Gastropub,"?2,500+",Both,Bar,4.2,"Fun, Cocktails"
-Delhi Club House,RK Puram,Fusion,"?3,000+",Both,Casual-Fine,4.4,Club Classics
-Wok in the Clouds,Khan Market,Multi-cuisine,"?2,500+",Both,Casual,4.2,"Vibrant, Family"
-The Great Kabab Fy,Various,North Indian,"?3,000+",Both,Fine Dining,4.3,Unlimited Kebabs
-Fat Jar Cafe,Kailash Colony,European/Market,"?2,000+",Both,Cafe,4.4,"Fresh, Artisanal"
-Andrea's Eatery,Saket,Global,"?2,500+",Both,Casual,4.6,"Gourmet, Healthy"
-Cafe Turtle,Khan Market,Vegetarian/Cafe,"?1,500+",Veg,Cafe,4.3,"Bookstore, Quiet"
-Swagath,Defence Colony,Seafood/South Ind,"?2,500+",Both,Casual,4.4,"Coastal, Family"
-Cafe Delhi Heights,Various,Fusion,"?2,000+",Both,Casual,4.2,Juicy Lucy Burger
-SodaBottleOpenerWala,Khan Market,Parsi,"?2,000+",Both,Casual,4.4,"Quirky, Irani Cafe"
-Pita Pit,Various,Healthy/Wraps,?800+,Both,Quick Service,4,"Fresh, Fast"
-Indian Accent,Lodhi Road,Modern Indian,4.9,5000+,Romantic Luxury
-Bukhara,Chanakyapuri,North Indian,4.8,6000+,Iconic Family
-Dum Pukht,Chanakyapuri,Awadhi,4.7,6000+,Royal Luxury
-Megu,Chanakyapuri,Japanese,4.6,5500+,Fine Dining
-Le Cirque,Chanakyapuri,French Italian,4.5,6000+,Romantic Skyline
-Spice Route,Janpath,South East Asian,4.7,5000+,Art Intimate
-China Kitchen,Bhikaji Cama Place,Chinese,4.5,4500+,Family Dining
-Olive Bar & Kitchen,Mehrauli,Mediterranean,4.6,4000+,Romantic Outdoor
-Dhaba Estd 1986,Connaught Place,North Indian,4.4,2500+,Casual Funky
-Town Hall,Khan Market,Pan Asian,4.5,3500+,Trendy Sushi
-The Grammar Room,Mehrauli,International,4.6,3000+,Brunch Cafe
-Diggin,Chanakyapuri,Italian Cafe,4.5,1800+,Garden Aesthetic
-Big Chill Cafe,Khan Market,Italian,4.7,2000+,Dessert Cozy
-Karim's,Jama Masjid,Mughlai,4.6,1200+,Historic NonVeg
-Saravana Bhavan,Connaught Place,South Indian,4.5,900+,Vegetarian Classic
-Farzi Cafe,Connaught Place,Modern Indian,4.4,2500+,Fusion Trendy
-Punjab Grill,Saket,North Indian,4.5,3000+,Luxury Dining
-SodaBottleOpenerWala,Khan Market,Parsi,4.3,2000+,Vintage Cafe
-Yeti The Himalayan Kitchen,Hauz Khas,Tibetan Nepali,4.6,1800+,Authentic Cozy
-Kylin Experience,Vasant Kunj,Asian,4.4,3200+,Fine Dining
+Indian Accent,Lodhi Road,Modern Indian,5000,Both,Fine Dining,4.9,"Romantic, Luxury"
+Bukhara,Chanakyapuri,North Indian,6000,Both,Fine Dining,4.8,"Iconic, Family"
+Dum Pukht,Chanakyapuri,Awadhi,6000,Both,Fine Dining,4.7,"Royal, Luxury"
+Megu,Chanakyapuri,Japanese,5500,Both,Fine Dining,4.6,"Contemporary, Chic"
+Le Cirque,Chanakyapuri,French-Italian,6000,Both,Fine Dining,4.5,"Romantic, Skyline"
+Spice Route,Janpath,South East Asian,5000,Both,Fine Dining,4.7,"Art-led, Intimate"
+China Kitchen,Bhikaji Cama Place,Chinese,4500,Both,Fine Dining,4.5,"Open Kitchen, Family"
+Olive Bar & Kitchen,Mehrauli,Mediterranean,4000,Both,Fine Dining,4.6,"Romantic, Outdoor"
+Dhaba Estd 1986,Connaught Place,North Indian,2500,Both,Casual-Fine,4.4,"Vibrant, Funky"
+Town Hall,Khan Market,Pan-Asian,3500,Both,Fine Dining,4.5,"Trendy, Sushi Bar"
+The Grammar Room,Mehrauli,International,3000,Both,Cafe,4.6,"Aesthetic, Brunch"
+Diggin,Chanakyapuri,Italian/Cafe,1800,Both,Cafe,4.5,"Fairy-tale, Garden"
+Greenr Cafe,Vasant Vihar,Plant-based,1500,Vegan/Veg,Cafe,4.4,"Healthy, Pet-friendly"
+Rose Cafe,Saket,Italian/Lebanese,1500,Both,Cafe,4.3,"Pastel, Romantic"
+Cafe Lota,Pragati Maidan,Modern Indian,1500,Both,Open-Air,4.7,"Artistic, Cultural"
+AMA Cafe,Majnu Ka Tila,Himalayan/Bakery,1000,Both,Cafe,4.5,"Cozy, Breakfast"
+Savorworks,Chhatarpur,Coffee/Chocolate,1200,Both,Cafe,4.4,"Minimalist, Coffee"
+Blue Tokai,Saidulajab,Coffee,800,Both,Cafe,4.6,"Industrial, Work"
+Fabcafe,Vasant Kunj,Fusion Indian,1500,Both,Cafe,4.3,"Health-focused"
+Leo’s Pizzeria,Vasant Vihar,Artisanal Pizza,2000,Both,Casual,4.7,"Wood-fired, Pet-friendly"
+Carnatic Cafe,GK II,South Indian,800,Veg,Casual,4.7,"Dosa-special, Quick"
+Yum Yum Cha,Saket,Pan-Asian/Sushi,2500,Both,Casual,4.6,"Origami-themed"
+Big Chill Cafe,Khan Market,Italian/Continental,2500,Both,Casual,4.8,"Movie Posters, Iconic"
+Sandoz,Connaught Place,North Indian,1500,Both,Casual,4.2,"Family, Classics"
+Sushiya,Various,Japanese,1200,Both,Quick Service,4.1,"Value-for-money"
+Potbelly Rooftop,Shahpur Jat,Bihari,1800,Both,Rooftop,4.5,"Offbeat, Vibrant"
+Andhra Bhavan,Ashoka Road,South Indian,600,Both,Canteen,4.6,"Thali, Crowded"
+United Coffee House,Connaught Place,Continental/Indian,2500,Both,Retro Casual,4.4,"Heritage, Vintage"
+Mahabelly,Saket,Kerala,1800,Both,Casual,4.5,"Seafood, Regional"
+Gulati,Pandara Road,North Indian,2500,Both,Casual,4.6,"Butter Chicken, Family"
+Sitaram Diwanchand,Paharganj,Chole Bhature,300,Veg,Street Food,4.7,"Breakfast, Famous"
+Natraj Dahi Bhalla,Chandni Chowk,Chaat,150,Veg,Street Food,4.6,"Heritage, Quick Bite"
+Al Jawahar,Jama Masjid,Mughlai,1200,Non-Veg,Casual,4.4,"Nihari, Old Delhi"
+Khan Chacha,Khan Market,Rolls/Kebabs,800,Both,Casual,4.1,"Quick Bite, Famous"
+Bittoo Tikki Wala,Pitampura,Chaat,400,Veg,Quick Service,4.2,"Spicy, Street Food"
+Dolma Aunty Momos,Lajpat Nagar,Tibetan/Momos,200,Both,Street Food,4.3,"Student-favorite"
+Kuremal Mohan Lal,Chawri Bazar,Stuffed Kulfi,300,Veg,Dessert Parlor,4.8,"Unique, Summer"
+Karim's,Jama Masjid,Mughlai,1200,Non-Veg,Casual,4.5,"Iconic, Meat-lovers"
+Kiyan - The Roseate,NH8,Global,5000,Both,Fine Dining,4.6,"Water-body, Luxury"
+Comorin,Gurgaon,Modern Indian,3000,Both,Casual-Fine,4.7,"Creative, Bar"
+Sevilla,Aurangzeb Road,Spanish,6000,Both,Fine Dining,4.5,"Romantic, Canopy"
+Lodi - The Garden,Lodhi Road,European,3000,Both,Garden Dining,4.3,"Greenery, Outdoor"
+Wenger's,Connaught Place,Bakery,600,Both,Takeaway,4.7,"Heritage, Pastries"
+Perch Wine & Coffee,Khan Market,European,3000,Both,Casual-Fine,4.5,"Wine, Aesthetic"
+Fig & Maple,GK II,Contemporary,2500,Both,Rooftop,4.6,"Farm-to-fork, Brunch"
+Tres,Lodhi Colony,European,4000,Both,Fine Dining,4.5,"Gourmet, Intimate"
+Pa Pa Ya,Saket,Modern Asian,3500,Both,Casual-Fine,4.4,"High-energy, Sushi"
