@@ -33,21 +33,19 @@ def home():
 
 @app.route("/meta")
 def meta():
-    """Powers the dropdowns/buttons on the frontend: real distinct values
-    pulled straight from the dataset, so the UI never drifts out of sync
-    with what's actually searchable."""
+    """Optional: powers dropdowns/suggestions if your frontend wants them.
+    Safe to ignore/not call -- it doesn't affect /recommend."""
     locations = sorted(DF["Area / Location"].unique().tolist())
     price_bands = sorted(DF["Price Range (for 2)"].unique().tolist())
-
     cuisines = sorted(set(
         c.strip() for cell in DF["Cuisine Type"] for c in str(cell).split(",") if c.strip()
     ))
     dishes = sorted(set(
         d.strip() for cell in DF["Popular Dishes"] for d in str(cell).split(",") if d.strip()
-    ))
+    )) if "Popular Dishes" in DF.columns else []
     food_types = sorted(set(
         f.strip() for cell in DF["Food Type"] for f in str(cell).split(",") if f.strip()
-    ))
+    )) if "Food Type" in DF.columns else []
     occasions = ["Party", "Fine Dine", "Evening Snack", "Date Night",
                  "Business Meeting", "Celebration", "Casual Hangout",
                  "Solo Dining", "Family Gathering"]
@@ -64,16 +62,17 @@ def meta():
 
 @app.route("/recommend")
 def recommend():
-    # `q` is the free-text / chip-selected "what do you want to eat" field --
-    # matches cuisine, dish, food type, or occasion/tag in one go.
+    # New unified field: matches cuisine, dish, food type, or occasion/tag
+    # all at once (e.g. "momos", "sushi", "party", "sweets").
     query = request.args.get("q", "").strip()
+
+    # Original params, still supported exactly as before.
+    cuisine = request.args.get("cuisine", "").strip()
     location = request.args.get("location", "").strip()
     price = request.args.get("price", "").strip()
 
-    # Kept for backward compatibility with any old links/bookmarks that
-    # used the original ?cuisine= param directly.
-    cuisine = request.args.get("cuisine", "").strip()
-
+    # Optional pagination -- OFF by default (limit=0 means "no limit"),
+    # so behavior matches the original app exactly unless you opt in.
     limit = request.args.get("limit", default=0, type=int)
     offset = request.args.get("offset", default=0, type=int)
 
@@ -86,10 +85,10 @@ def recommend():
     if location:
         df = df[df["Area / Location"].str.contains(location, case=False, na=False)]
     if price:
-        # Exact match against the fixed price bands shown in the dropdown
-        df = df[df["Price Range (for 2)"] == price]
-
-    total_matches = len(df)
+        # Falls back to substring match so it still works if your frontend
+        # sends a partial price string instead of an exact band.
+        exact = df["Price Range (for 2)"] == price
+        df = df[exact] if exact.any() else df[df["Price Range (for 2)"].astype(str).str.contains(price, na=False)]
 
     if limit and limit > 0:
         df = df.iloc[offset: offset + limit]
@@ -110,11 +109,9 @@ def recommend():
             "tags": row["Tags"],
         })
 
-    return jsonify({
-        "total": total_matches,
-        "count": len(results),
-        "results": results,
-    })
+    # IMPORTANT: plain array response, same shape as the original app.py,
+    # so any existing frontend that does `data.forEach(...)` keeps working.
+    return jsonify(results)
 
 
 if __name__ == "__main__":
