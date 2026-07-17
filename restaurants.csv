@@ -94,3 +94,105 @@ Social	Hauz Khas Village	Global	2000	Both	Casual	4.3	Youthful, View
 Farzi Cafe	Connaught Place	Modern Indian	3000	Both	Casual-Fine	4.4	Molecular, Fun
 Colocal	Chhatarpur	Cafe Chocolate	2000	Both	Cafe	4.5	Courtyard, Artisanal
 LOpera	Khan Market	French Bakery	1200	Both	Cafe	4.5	Macarons, Elegant
+Restaurant Name	Area / Location	Cuisine Type	Price Range (for 2)	Veg/Non-Veg	Ambience	Rating	Tags
+Sample Restaurant 1	Noida Sector 18	Italian	1500	Both	Fine Dining	4.1	Tag2, Popular
+Sample Restaurant 2	Cyber Hub	Chinese	2000	Both	Cafe	4.2	Tag3, Popular
+Sample Restaurant 3	Greater Kailash	Japanese	2500	Both	Rooftop	4.3	Tag4, Popular
+Sample Restaurant 4	Defence Colony	Cafe	3000	Both	Casual-Fine	4.4	Tag5, Popular
+Sample Restaurant 5	Hauz Khas	Mediterranean	3500	Both	Bar	4.5	Tag1, Popular
+Sample Restaurant 6	Connaught Place	Asian	1000	Both	Casual	4.6	Tag2, Popular
+Sample Restaurant 7	Gurgaon	Continental	1500	Both	Fine Dining	4.7	Tag3, Popular
+Sample Restaurant 8	Rajouri Garden	Mexican	2000	Both	Cafe	4.8	Tag4, Popular
+Sample Restaurant 9	Dwarka	Thai	2500	Both	Rooftop	4.9	Tag5, Popular
+Sample Restaurant 10	Aerocity	North Indian	3000	Both	Casual-Fine	4	Tag1, Popular
+Sample Restaurant 11	Noida Sector 18	Italian	3500	Both	Bar	4.1	Tag2, Popular
+Sample Restaurant 12	Cyber Hub	Chinese	1000	Both	Casual	4.2	Tag3, Popular
+Sample Restaurant 13	Greater Kailash	Japanese	1500	Both	Fine Dining	4.3	Tag4, Popular
+Sample Restaurant 14	Defence Colony	Cafe	2000	Both	Cafe	4.4	Tag5, Popular
+Sample Restaurant 15	Hauz Khas	Mediterranean	2500	Both	Rooftop	4.5	Tag1, Popular
+Sample Restaurant 16	Connaught Place	Asian	3000	Both	Casual-Fine	4.6	Tag2, Popular
+Sample Restaurant 17	Gurgaon	Continental	3500	Both	Bar	4.7	Tag3, Popular
+Sample Restaurant 18	Rajouri Garden	Mexican	1000	Both	Casual	4.8	Tag4, Popular
+Sample Restaurant 19	Dwarka	Thai	1500	Both	Fine Dining	4.9	Tag5, Popular
+Sample Restaurant 20	Aerocity	North Indian	2000	Both	Cafe	4	Tag1, Popular
+Sample Restaurant 21	Noida Sector 18	Italian	2500	Both	Rooftop	4.1	Tag2, Popular
+Sample Restaurant 22	Cyber Hub	Chinese	3000	Both	Casual-Fine	4.2	Tag3, Popular
+Sample Restaurant 23	Greater Kailash	Japanese	3500	Both	Bar	4.3	Tag4, Popular
+Sample Restaurant 24	Defence Colony	Cafe	1000	Both	Casual	4.4	Tag5, Popular
+Sample Restaurant 25	Hauz Khas	Mediterranean	1500	Both	Fine Dining	4.5	Tag1, Popular
+Sample Restaurant 26	Connaught Place	Asian	2000	Both	Cafe	4.6	Tag2, Popular
+Sample Restaurant 27	Gurgaon	Continental	2500	Both	Rooftop	4.7	Tag3, Popular
+Sample Restaurant 28	Rajouri Garden	Mexican	3000	Both	Casual-Fine	4.8	Tag4, Popular
+Sample Restaurant 29	Dwarka	Thai	3500	Both	Bar	4.9	Tag5, Popular
+Sample Restaurant 30	Aerocity	North Indian	1000	Both	Casual	4	Tag1, Popular
+Sample Restaurant 31	Noida Sector 18	Italian	1500	Both	Fine Dining	4.1	Tag2, Popular
+Sample Restaurant 32	Cyber Hub	Chinese	2000	Both	Cafe	4.2	Tag3, Popular
+Sample Restaurant 33	Greater Kailash	Japanese	2500	Both	Rooftop	4.3	Tag4, Popular
+Sample Restaurant 34	Defence Colony	Cafe	3000	Both	Casual-Fine	4.4	Tag5, Popular
+Sample Restaurant 35	Hauz Khas	Mediterranean	3500	Both	Bar	4.5	Tag1, Popular
+Sample Restaurant 36	Connaught Place	Asian	1000	Both	Casual	4.6	Tag2, Popular
+Sample Restaurant 37	Gurgaon	Continental	1500	Both	Fine Dining	4.7	Tag3, Popular
+Sample Restaurant 38	Rajouri Garden	Mexican	2000	Both	Cafe	4.8	Tag4, Popular
+Sample Restaurant 39	Dwarka	Thai	2500	Both	Rooftop	4.9	Tag5, Popular
+Sample Restaurant 40	Aerocity	North Indian	3000	Both	Casual-Fine	4	Tag1, Popular
+Sample Restaurant 41	Noida Sector 18	Italian	3500	Both	Bar	4.1	Tag2, Popular
+Sample Restaurant 42	Cyber Hub	Chinese	1000	Both	Casual	4.2	Tag3, Popular
+Sample Restaurant 43	Greater Kailash	Japanese	1500	Both	Fine Dining	4.3	Tag4, Popular
+Sample Restaurant 44	Defence Colony	Cafe	2000	Both	Cafe	4.4	Tag5, Popular
+Sample Restaurant 45	Hauz Khas	Mediterranean	2500	Both	Rooftop	4.5	Tag1, Popular
+Sample Restaurant 46	Connaught Place	Asian	3000	Both	Casual-Fine	4.6	Tag2, Popular
+Sample Restaurant 47	Gurgaon	Continental	3500	Both	Bar	4.7	Tag3, Popular
+Sample Restaurant 48	Rajouri Garden	Mexican	1000	Both	Casual	4.8	Tag4, Popular
+Sample Restaurant 49	Dwarka	Thai	1500	Both	Fine Dining	4.9	Tag5, Popular
+Sample Restaurant 50	Aerocity	North Indian	2000	Both	Cafe	4	Tag1, Popular
+Sample Restaurant 51	Noida Sector 18	Italian	2500	Both	Rooftop	4.1	Tag2, Popular
+Sample Restaurant 52	Cyber Hub	Chinese	3000	Both	Casual-Fine	4.2	Tag3, Popular
+Sample Restaurant 53	Greater Kailash	Japanese	3500	Both	Bar	4.3	Tag4, Popular
+Sample Restaurant 54	Defence Colony	Cafe	1000	Both	Casual	4.4	Tag5, Popular
+Sample Restaurant 55	Hauz Khas	Mediterranean	1500	Both	Fine Dining	4.5	Tag1, Popular
+Sample Restaurant 56	Connaught Place	Asian	2000	Both	Cafe	4.6	Tag2, Popular
+Sample Restaurant 57	Gurgaon	Continental	2500	Both	Rooftop	4.7	Tag3, Popular
+Sample Restaurant 58	Rajouri Garden	Mexican	3000	Both	Casual-Fine	4.8	Tag4, Popular
+Sample Restaurant 59	Dwarka	Thai	3500	Both	Bar	4.9	Tag5, Popular
+Sample Restaurant 60	Aerocity	North Indian	1000	Both	Casual	4	Tag1, Popular
+Sample Restaurant 61	Noida Sector 18	Italian	1500	Both	Fine Dining	4.1	Tag2, Popular
+Sample Restaurant 62	Cyber Hub	Chinese	2000	Both	Cafe	4.2	Tag3, Popular
+Sample Restaurant 63	Greater Kailash	Japanese	2500	Both	Rooftop	4.3	Tag4, Popular
+Sample Restaurant 64	Defence Colony	Cafe	3000	Both	Casual-Fine	4.4	Tag5, Popular
+Sample Restaurant 65	Hauz Khas	Mediterranean	3500	Both	Bar	4.5	Tag1, Popular
+Sample Restaurant 66	Connaught Place	Asian	1000	Both	Casual	4.6	Tag2, Popular
+Sample Restaurant 67	Gurgaon	Continental	1500	Both	Fine Dining	4.7	Tag3, Popular
+Sample Restaurant 68	Rajouri Garden	Mexican	2000	Both	Cafe	4.8	Tag4, Popular
+Sample Restaurant 69	Dwarka	Thai	2500	Both	Rooftop	4.9	Tag5, Popular
+Sample Restaurant 70	Aerocity	North Indian	3000	Both	Casual-Fine	4	Tag1, Popular
+Sample Restaurant 71	Noida Sector 18	Italian	3500	Both	Bar	4.1	Tag2, Popular
+Sample Restaurant 72	Cyber Hub	Chinese	1000	Both	Casual	4.2	Tag3, Popular
+Sample Restaurant 73	Greater Kailash	Japanese	1500	Both	Fine Dining	4.3	Tag4, Popular
+Sample Restaurant 74	Defence Colony	Cafe	2000	Both	Cafe	4.4	Tag5, Popular
+Sample Restaurant 75	Hauz Khas	Mediterranean	2500	Both	Rooftop	4.5	Tag1, Popular
+Sample Restaurant 76	Connaught Place	Asian	3000	Both	Casual-Fine	4.6	Tag2, Popular
+Sample Restaurant 77	Gurgaon	Continental	3500	Both	Bar	4.7	Tag3, Popular
+Sample Restaurant 78	Rajouri Garden	Mexican	1000	Both	Casual	4.8	Tag4, Popular
+Sample Restaurant 79	Dwarka	Thai	1500	Both	Fine Dining	4.9	Tag5, Popular
+Sample Restaurant 80	Aerocity	North Indian	2000	Both	Cafe	4	Tag1, Popular
+Sample Restaurant 81	Noida Sector 18	Italian	2500	Both	Rooftop	4.1	Tag2, Popular
+Sample Restaurant 82	Cyber Hub	Chinese	3000	Both	Casual-Fine	4.2	Tag3, Popular
+Sample Restaurant 83	Greater Kailash	Japanese	3500	Both	Bar	4.3	Tag4, Popular
+Sample Restaurant 84	Defence Colony	Cafe	1000	Both	Casual	4.4	Tag5, Popular
+Sample Restaurant 85	Hauz Khas	Mediterranean	1500	Both	Fine Dining	4.5	Tag1, Popular
+Sample Restaurant 86	Connaught Place	Asian	2000	Both	Cafe	4.6	Tag2, Popular
+Sample Restaurant 87	Gurgaon	Continental	2500	Both	Rooftop	4.7	Tag3, Popular
+Sample Restaurant 88	Rajouri Garden	Mexican	3000	Both	Casual-Fine	4.8	Tag4, Popular
+Sample Restaurant 89	Dwarka	Thai	3500	Both	Bar	4.9	Tag5, Popular
+Sample Restaurant 90	Aerocity	North Indian	1000	Both	Casual	4	Tag1, Popular
+Sample Restaurant 91	Noida Sector 18	Italian	1500	Both	Fine Dining	4.1	Tag2, Popular
+Sample Restaurant 92	Cyber Hub	Chinese	2000	Both	Cafe	4.2	Tag3, Popular
+Sample Restaurant 93	Greater Kailash	Japanese	2500	Both	Rooftop	4.3	Tag4, Popular
+Sample Restaurant 94	Defence Colony	Cafe	3000	Both	Casual-Fine	4.4	Tag5, Popular
+Sample Restaurant 95	Hauz Khas	Mediterranean	3500	Both	Bar	4.5	Tag1, Popular
+Sample Restaurant 96	Connaught Place	Asian	1000	Both	Casual	4.6	Tag2, Popular
+Sample Restaurant 97	Gurgaon	Continental	1500	Both	Fine Dining	4.7	Tag3, Popular
+Sample Restaurant 98	Rajouri Garden	Mexican	2000	Both	Cafe	4.8	Tag4, Popular
+Sample Restaurant 99	Dwarka	Thai	2500	Both	Rooftop	4.9	Tag5, Popular
+Sample Restaurant 100	Aerocity	North Indian	3000	Both	Casual-Fine	4	Tag1, Popular
+
